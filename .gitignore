@@ -1,0 +1,9 @@
+#忽略以下文件
+prebuilts/clang/linux-x86/host/3.4/bin/clang
+prebuilts/sdk/tools/windows/libLLVM.dll
+prebuilts/sdk/tools/windows/libclang.dll
+prebuilts/eclipse/platform/org.eclipse.platform-3.7.2.zip
+prebuilts/qemu-kernel/x86_64/vmlinux-qemu
+*.bin
+*.img
+
