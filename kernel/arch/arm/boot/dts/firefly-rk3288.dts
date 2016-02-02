@@ -155,17 +155,18 @@
         led-power = <&gpio8 GPIO_A1 GPIO_ACTIVE_LOW>;
 		status = "disabled";
 	};
-	
+
+	/*modefy by qiyei2009*/
  	leds {
        		compatible = "gpio-leds";
        		power {
-           		label = "firefly:blue:power";
+           		label = "power_blue";
            		linux,default-trigger = "ir-power-click";
-           		default-state = "on";
+           		default-state = "off";
            		gpios = <&gpio8 GPIO_A1 GPIO_ACTIVE_LOW>;
        		};  
         	user {
-           		label = "firefly:yellow:user";
+           		label = "user_yellow";
            		linux,default-trigger = "ir-user-click";
            		default-state = "off";
            		gpios = <&gpio8 GPIO_A2 GPIO_ACTIVE_LOW>;

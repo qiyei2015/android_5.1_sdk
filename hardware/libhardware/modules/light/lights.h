@@ -27,28 +27,24 @@
 #ifndef ANDROID_LIGHTS_H
 #define ANDROID_LIGHTS_H
 
-/*/sys/class/leds/firefly:blue:power/*/
+/*/sys/class/leds/ in firefly-rk3288 /*/
 char const*const RED_LED_FILE 			= "/sys/class/leds/red/brightness";
-char const*const GREEN_LED_FILE 		= "/sys/class/leds/green/brightness";
-char const*const BLUE_LED_FILE 			= "/sys/class/leds/blue/brightness";
+char const*const GREEN_LED_FILE 		= "/sys/class/leds/user_yellow/brightness";
+char const*const BLUE_LED_FILE 			= "/sys/class/leds/power_blue/brightness";
 char const*const RED_LED_FILE_TRIGGER	= "/sys/class/leds/red/trigger";
-char const*const GREEN_LED_FILE_TRIGGER	= "/sys/class/leds/green/trigger";
-char const*const BLUE_LED_FILE_TRIGGER	= "/sys/class/leds/blue/trigger";
+char const*const GREEN_LED_FILE_TRIGGER	= "/sys/class/leds/user_yellow/trigger";
+char const*const BLUE_LED_FILE_TRIGGER	= "/sys/class/leds/power_blue/trigger";
 char const*const RED_LED_FILE_DELAYON	= "/sys/class/leds/red/delay_on";
-char const*const GREEN_LED_FILE_DELAYON	= "/sys/class/leds/green/delay_on";
-char const*const BLUE_LED_FILE_DELAYON	= "/sys/class/leds/blue/delay_on";
+char const*const GREEN_LED_FILE_DELAYON	= "/sys/class/leds/user_yellow/delay_on";
+char const*const BLUE_LED_FILE_DELAYON	= "/sys/class/leds/power_blue/delay_on";
 char const*const RED_LED_FILE_DELAYOFF	= "/sys/class/leds/red/delay_off";
-char const*const GREEN_LED_FILE_DELAYOFF	= "/sys/class/leds/green/delay_off";
-char const*const BLUE_LED_FILE_DELAYOFF	= "/sys/class/leds/blue/delay_off";
-char const*const BUTTON_BACKLIGHT_FILE[] = {
-  "/sys/class/leds/button-backlight/brightness",
-  "/sys/class/leds/button-backlight-rgb1/brightness",
-  "/sys/class/leds/button-backlight-rgb2/brightness",
-  "/sys/class/leds/keyboard-backlight/brightness"
-};
-char const*const LCD_BACKLIGHT_FILE	= "/sys/class/leds/lcd-backlight/brightness";
+char const*const GREEN_LED_FILE_DELAYOFF	= "/sys/class/leds/user_yellow/delay_off";
+char const*const BLUE_LED_FILE_DELAYOFF	= "/sys/class/leds/power_blue/delay_off";
 
-char const*const ALS_FILE	= "/sys/class/leds/lcd-backlight/als/enable";
+
+char const*const LCD_BACKLIGHT_FILE	= "/sys/class/backlight/rk28_bl/brightness";
+
+//char const*const ALS_FILE	= "/sys/class/leds/lcd-backlight/als/enable";
 
 
 #endif //ANDROID_LIGHTS_H

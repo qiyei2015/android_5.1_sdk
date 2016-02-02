@@ -14,6 +14,7 @@
  * ...................
  * ********************************************************************/
 
+#define LOG_NDEBUG 0
 #define LOG_TAG "Lights"
 
 //#include <hardware/hardware.h>
@@ -97,6 +98,7 @@ int set_backlight_light(struct light_device_t* dev, struct light_state_t const* 
 	int err = 0;
 	int brightness = rgb_to_brightness(state);
 	pthread_mutex_lock(&g_lock);
+	
 	err = write_int(BACKLIGHT_PATH, brightness);
 	pthread_mutex_unlock(&g_lock);
 	return 0;

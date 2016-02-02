@@ -107,8 +107,8 @@ fi #### recovery
 
         echo -n "create misc.img.... "
         cp -a rkst/Image/misc.img $IMAGE_PATH/misc.img
-        cp -a rkst/Image/pcba_small_misc.img $IMAGE_PATH/pcba_small_misc.img
-        cp -a rkst/Image/pcba_whole_misc.img $IMAGE_PATH/pcba_whole_misc.img
+        #cp -a rkst/Image/pcba_small_misc.img $IMAGE_PATH/pcba_small_misc.img #modefy by qiyei2015
+        #cp -a rkst/Image/pcba_whole_misc.img $IMAGE_PATH/pcba_whole_misc.img #modefy by qiyei2015
         echo "done."
 
 if [ $IMG_TARGET == 'system' ] || [ $IMG_TARGET == 'all' ];then

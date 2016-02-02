@@ -4,6 +4,8 @@ prebuilts/sdk/tools/windows/libLLVM.dll
 prebuilts/sdk/tools/windows/libclang.dll
 prebuilts/eclipse/platform/org.eclipse.platform-3.7.2.zip
 prebuilts/qemu-kernel/x86_64/vmlinux-qemu
+out/
 *.bin
 *.img
+*.o
 

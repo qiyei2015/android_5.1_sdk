@@ -146,7 +146,6 @@
       <sourceFolder url="file://$MODULE_DIR$/cts/tests/tests/openglperf/src" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/cts/tests/tests/os/src" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/cts/tests/tests/permission/src" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/cts/tests/tests/permission2/src" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/cts/tests/tests/preference/src" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/cts/tests/tests/preference2/src" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/cts/tests/tests/print/src" isTestSource="true" />
@@ -858,6 +857,398 @@
       <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/basebuilder-3.6.2/org.eclipse.releng.basebuilder/plugins/org.eclipse.build.tools/src_bugzilla" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/basebuilder-3.6.2/org.eclipse.releng.basebuilder/plugins/org.eclipse.build.tools/src_rss" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/basebuilder-3.6.2/org.eclipse.releng.basebuilder/plugins/org.eclipse.test.performance.ui/src" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.ant.core/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.ant.core/src_ant" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.ant.launching/common" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.ant.launching/loggers" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.ant.launching/remote" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.ant.launching/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.ant.ui/Ant Editor" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.ant.ui/Ant Runner Support" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.ant.ui/Ant Tools Support" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.ant.ui/Remote Ant Support" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.compare.core/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.compare.examples.xml/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.compare.examples.xml/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.compare.examples/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.compare.win32/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.compare/compare" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.core.commands/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.core.contenttype/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.core.databinding.beans/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.core.databinding.observable/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.core.databinding.property/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.core.databinding/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.core.expressions/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.core.externaltools/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.core.filebuffers/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.core.filesystem/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.core.jobs/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.core.net.linux.x86/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.core.net.linux.x86_64/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.core.net.win32.x86/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.core.net.win32.x86_64/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.core.net/fragments/org.eclipse.core.net.linux.x86/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.core.net/fragments/org.eclipse.core.net.linux.x86_64/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.core.net/fragments/org.eclipse.core.net.win32.x86/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.core.net/fragments/org.eclipse.core.net.win32.x86_64/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.core.net/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.core.resources.jmx/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.core.resources/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.core.resources/src_ant" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.core.runtime.compatibility.auth/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.core.runtime.compatibility.registry/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.core.runtime.compatibility/src-boot" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.core.runtime.compatibility/src-model" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.core.runtime.compatibility/src-runtime" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.core.runtime/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.core.variables/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.debug.core/core" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.debug.examples.core/pdavm/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.debug.examples.core/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.debug.examples.core/src_ant" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.debug.examples.ui/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.debug.ui/ui" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.equinox.app/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.equinox.cm/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.equinox.common/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.equinox.concurrent/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.equinox.device/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.equinox.ds/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.equinox.event/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.equinox.frameworkadmin.equinox/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.equinox.frameworkadmin/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.equinox.http.jetty_1.1.100/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.equinox.http.jetty_2.0.0/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.equinox.http.registry/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.equinox.http.servlet/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.equinox.http.servletbridge/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.equinox.http/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.equinox.initializer/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.equinox.io/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.equinox.ip/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.equinox.jmx.client.rmi/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.equinox.jmx.client.xmlrpc/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.equinox.jmx.client/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.equinox.jmx.common/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.equinox.jmx.server.rmi/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.equinox.jmx.server.xmlrpc/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.equinox.jmx.server/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.equinox.jmx.vm/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.equinox.jsp.jasper.registry/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.equinox.jsp.jasper/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.equinox.launcher/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.equinox.log/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.equinox.metatype/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.equinox.p2.artifact.repository/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.equinox.p2.console/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.equinox.p2.core/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.equinox.p2.director.app/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.equinox.p2.director.app/src_ant" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.equinox.p2.director/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.equinox.p2.directorywatcher/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.equinox.p2.discovery.compatibility/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.equinox.p2.discovery/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.equinox.p2.engine/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.equinox.p2.extensionlocation/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.equinox.p2.garbagecollector/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.equinox.p2.installer/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.equinox.p2.jarprocessor/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.equinox.p2.jarprocessor/src_ant" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.equinox.p2.metadata.generator/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.equinox.p2.metadata.generator/src_ant" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.equinox.p2.metadata.repository/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.equinox.p2.metadata.repository/src_ant" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.equinox.p2.metadata/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.equinox.p2.operations/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.equinox.p2.publisher/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.equinox.p2.publisher/src_ant" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.equinox.p2.ql/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.equinox.p2.reconciler.dropins/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.equinox.p2.repository.tools/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.equinox.p2.repository.tools/src_ant" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.equinox.p2.repository/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.equinox.p2.touchpoint.eclipse/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.equinox.p2.touchpoint.natives/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.equinox.p2.ui.admin.rcp/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.equinox.p2.ui.admin/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.equinox.p2.ui.discovery/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.equinox.p2.ui.sdk.scheduler/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.equinox.p2.ui.sdk/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.equinox.p2.ui/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.equinox.p2.updatechecker/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.equinox.p2.updatesite/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.equinox.preferences.jmx/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.equinox.preferences/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.equinox.registry.jmx/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.equinox.registry/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.equinox.security.macosx/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.equinox.security.ui/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.equinox.security.win32.x86/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.equinox.security/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.equinox.servletbridge/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.equinox.simpleconfigurator.manipulator/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.equinox.simpleconfigurator/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.equinox.supplement/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.equinox.transforms.hook/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.equinox.transforms.xslt/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.equinox.useradmin/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.equinox.util/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.equinox.weaving.aspectj/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.equinox.weaving.caching.j9/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.equinox.weaving.caching/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.equinox.weaving.hook/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.equinox.wireadmin/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.help.appserver/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.help.base/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.help.base/src_ant" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.help.base/src_demo" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.help.ui/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.help.webapp/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.help/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.jdt.apt.core/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.jdt.apt.pluggable.core/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.jdt.apt.ui/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.jdt.compiler.apt/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.jdt.compiler.tool/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.jdt.core.manipulation/common" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.jdt.core.manipulation/refactoring" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.jdt.core/antadapter" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.jdt.core/batch" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.jdt.core/codeassist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.jdt.core/compiler" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.jdt.core/dom" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.jdt.core/eval" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.jdt.core/formatter" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.jdt.core/model" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.jdt.core/search" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.jdt.debug.ui/Snippet Support" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.jdt.debug.ui/ui" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.jdt.debug/eval" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.jdt.debug/jdi" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.jdt.debug/jdi interfaces" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.jdt.debug/model" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.jdt.junit.core/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.jdt.junit.runtime/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.jdt.junit/internal compatibility" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.jdt.junit/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.jdt.junit4.runtime/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.jdt.launching.macosx/macosx" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.jdt.launching.ui.macosx/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.jdt.launching/launching" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.jdt.launching/support" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.jdt.ui/core extension" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.jdt.ui/core refactoring" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.jdt.ui/internal compatibility" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.jdt.ui/jar in jar loader" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.jdt.ui/ui" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.jdt.ui/ui refactoring" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.jface.databinding/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.jface.examples.databinding/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.jface.text/projection" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.jface.text/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.jface/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.jsch.core/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.jsch.ui/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.ltk.core.refactoring/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.ltk.ui.refactoring/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.osgi.jmx/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.osgi/console/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.osgi/core/adaptor" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.osgi/core/composite" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.osgi/core/framework" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.osgi/defaultAdaptor/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.osgi/eclipseAdaptor/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.osgi/osgi/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.osgi/resolver/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.osgi/security/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.osgi/supplement/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.pde.api.tools.ui/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.pde.api.tools/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.pde.api.tools/src_ant" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.pde.build/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.pde.build/src_ant" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.pde.core/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.pde.core/src_ant" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.pde.core/text" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.pde.ds.core/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.pde.ds.ui/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.pde.junit.runtime/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.pde.launching/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.pde.runtime/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.pde.ua.core/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.pde.ua.ui/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.pde.ui.templates/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.pde.ui/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.pde.ui/src_samples" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.platform/src-intro" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.releng.tools/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.search/new search" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.search/search" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.swt.examples.browser.demos/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.swt.examples.browser/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.swt.examples.controls/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.swt.examples.launcher/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.swt.examples.layouts/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.swt.examples.ole.win32/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.swt.examples.paint/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.swt.examples/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.swt.jmx/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.swt/Eclipse SWT AWT/carbon" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.swt/Eclipse SWT AWT/cocoa" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.swt/Eclipse SWT AWT/emulated" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.swt/Eclipse SWT AWT/gtk" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.swt/Eclipse SWT AWT/motif" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.swt/Eclipse SWT AWT/win32" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.swt/Eclipse SWT Accessibility/carbon" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.swt/Eclipse SWT Accessibility/cocoa" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.swt/Eclipse SWT Accessibility/common" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.swt/Eclipse SWT Accessibility/emulated" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.swt/Eclipse SWT Accessibility/gtk" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.swt/Eclipse SWT Accessibility/win32" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.swt/Eclipse SWT Browser/carbon" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.swt/Eclipse SWT Browser/cocoa" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.swt/Eclipse SWT Browser/common" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.swt/Eclipse SWT Browser/forms" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.swt/Eclipse SWT Browser/photon" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.swt/Eclipse SWT Browser/win32" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.swt/Eclipse SWT Browser/wpf" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.swt/Eclipse SWT Custom Widgets/common" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.swt/Eclipse SWT Drag and Drop/carbon" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.swt/Eclipse SWT Drag and Drop/cocoa" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.swt/Eclipse SWT Drag and Drop/common" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.swt/Eclipse SWT Drag and Drop/emulated" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.swt/Eclipse SWT Drag and Drop/gtk" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.swt/Eclipse SWT Drag and Drop/motif" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.swt/Eclipse SWT Drag and Drop/photon" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.swt/Eclipse SWT Drag and Drop/win32" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.swt/Eclipse SWT Drag and Drop/wpf" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.swt/Eclipse SWT Effects/emulated" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.swt/Eclipse SWT Mozilla/carbon" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.swt/Eclipse SWT Mozilla/cocoa" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.swt/Eclipse SWT Mozilla/common" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.swt/Eclipse SWT Mozilla/gtk" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.swt/Eclipse SWT Mozilla/motif" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.swt/Eclipse SWT Mozilla/win32" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.swt/Eclipse SWT OLE Win32/win32" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.swt/Eclipse SWT OpenGL/carbon" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.swt/Eclipse SWT OpenGL/cocoa" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.swt/Eclipse SWT OpenGL/common" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.swt/Eclipse SWT OpenGL/emulated" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.swt/Eclipse SWT OpenGL/glx" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.swt/Eclipse SWT OpenGL/gtk" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.swt/Eclipse SWT OpenGL/motif" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.swt/Eclipse SWT OpenGL/win32" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.swt/Eclipse SWT PI/cairo" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.swt/Eclipse SWT PI/carbon" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.swt/Eclipse SWT PI/cocoa" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.swt/Eclipse SWT PI/common" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.swt/Eclipse SWT PI/common_j2me" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.swt/Eclipse SWT PI/common_j2se" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.swt/Eclipse SWT PI/gtk" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.swt/Eclipse SWT PI/motif" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.swt/Eclipse SWT PI/motif_gtk" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.swt/Eclipse SWT PI/photon" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.swt/Eclipse SWT PI/win32" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.swt/Eclipse SWT PI/wpf" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.swt/Eclipse SWT PI/wpf_win32" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.swt/Eclipse SWT Printing/carbon" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.swt/Eclipse SWT Printing/cocoa" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.swt/Eclipse SWT Printing/common" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.swt/Eclipse SWT Printing/emulated" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.swt/Eclipse SWT Printing/gtk" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.swt/Eclipse SWT Printing/motif" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.swt/Eclipse SWT Printing/photon" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.swt/Eclipse SWT Printing/win32" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.swt/Eclipse SWT Printing/wpf" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.swt/Eclipse SWT Program/carbon" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.swt/Eclipse SWT Program/cde" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.swt/Eclipse SWT Program/cocoa" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.swt/Eclipse SWT Program/emulated" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.swt/Eclipse SWT Program/gnome" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.swt/Eclipse SWT Program/gtk" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.swt/Eclipse SWT Program/motif" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.swt/Eclipse SWT Program/photon" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.swt/Eclipse SWT Program/win32" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.swt/Eclipse SWT Program/wpf" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.swt/Eclipse SWT Theme/carbon" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.swt/Eclipse SWT Theme/emulated" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.swt/Eclipse SWT Theme/gtk" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.swt/Eclipse SWT Theme/win32" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.swt/Eclipse SWT WebKit/gtk" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.swt/Eclipse SWT/cairo" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.swt/Eclipse SWT/carbon" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.swt/Eclipse SWT/cocoa" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.swt/Eclipse SWT/common" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.swt/Eclipse SWT/common_j2me" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.swt/Eclipse SWT/common_j2se" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.swt/Eclipse SWT/emulated/bidi" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.swt/Eclipse SWT/emulated/coolbar" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.swt/Eclipse SWT/emulated/datetime" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.swt/Eclipse SWT/emulated/expand" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.swt/Eclipse SWT/emulated/graphics" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.swt/Eclipse SWT/emulated/ime" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.swt/Eclipse SWT/emulated/tabfolder" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.swt/Eclipse SWT/emulated/taskbar" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.swt/Eclipse SWT/emulated/textlayout" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.swt/Eclipse SWT/emulated/tooltip" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.swt/Eclipse SWT/emulated/tray" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.swt/Eclipse SWT/emulated/treetable" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.swt/Eclipse SWT/gtk" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.swt/Eclipse SWT/motif" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.swt/Eclipse SWT/photon" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.swt/Eclipse SWT/win32" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.swt/Eclipse SWT/wpf" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.team.core/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.team.cvs.core/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.team.cvs.ssh2/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.team.cvs.ui/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.team.examples.filesystem/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.team.ui/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.text/projection" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.text/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.ui.browser/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.ui.carbon/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.ui.cheatsheets/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.ui.cocoa/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.ui.console/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.ui.editors/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.ui.examples.contributions/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.ui.examples.fieldassist/Eclipse UI Examples Field Assist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.ui.examples.javaeditor/Eclipse Java Editor Example" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.ui.examples.javaeditor/Template Editor Example" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.ui.examples.multipageeditor/Eclipse UI Examples MultiPageEditor" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.ui.examples.propertysheet/Eclipse UI Examples PropertySheet" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.ui.examples.readmetool/Eclipse UI Examples Readme Tool" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.ui.examples.undo/Eclipse UI Examples Undo" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.ui.examples.views.properties.tabbed.article/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.ui.externaltools/External Tools Base" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.ui.externaltools/Program Tools Support" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.ui.forms/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.ui.ide.application/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.ui.ide/extensions" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.ui.ide/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.ui.intro.universal/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.ui.intro/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.ui.navigator.resources/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.ui.navigator/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.ui.net/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.ui.presentations.r21/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.ui.views.log/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.ui.views.properties.tabbed/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.ui.views/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.ui.win32/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.ui.workbench.compatibility/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.ui.workbench.texteditor/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.ui.workbench/Eclipse UI" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.ui.workbench/Eclipse UI Editor Support" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.ui/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.update.configurator/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.update.core/jarprocessor" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.update.core/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.update.scheduler/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.update.ui/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/external/eclipse-basebuilder/src/eclipse-sourceBuild-srcIncluded-3.6.2/src/plugins/org.eclipse.update.ui/src_webapp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/external/eclipse-windowbuilder/propertysheet/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/external/eyes-free/AccessCheck/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/external/glide/library/src/main/java" isTestSource="false" />
@@ -1321,6 +1712,7 @@
       <sourceFolder url="file://$MODULE_DIR$/frameworks/webview/chromium/tools/WebViewShell/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/frameworks/webview/nullwebview/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/frameworks/wilhelm/tests/native-media/src" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/gen" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/libcore/benchmarks/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/libcore/dalvik/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/libcore/dalvik/src/test/java" isTestSource="true" />
@@ -1592,6 +1984,7 @@
       <sourceFolder url="file://$MODULE_DIR$/out/target/common/obj/APPS/SystemUI_intermediates/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/out/target/common/obj/APPS/TeleServiceTests_intermediates/src" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/out/target/common/obj/APPS/TeleService_intermediates/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/out/target/common/obj/APPS/TeleService_intermediates/src/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/out/target/common/obj/APPS/TelecomTests_intermediates/src" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/out/target/common/obj/APPS/Telecom_intermediates/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/out/target/common/obj/APPS/TelephonyProvider_intermediates/src" isTestSource="false" />
@@ -1664,6 +2057,7 @@
       <sourceFolder url="file://$MODULE_DIR$/out/target/common/obj/JAVA_LIBRARIES/services.core_intermediates/src/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/out/target/common/obj/JAVA_LIBRARIES/services_intermediates/src/core/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/out/target/common/obj/JAVA_LIBRARIES/setup-wizard-navbar_intermediates/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/out/target/common/obj/JAVA_LIBRARIES/telephony-common_intermediates/src/src/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/out/target/common/obj/JAVA_LIBRARIES/voip-common_intermediates/src/src/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/out/target/product/rk3288_box/obj/GYP/shared_intermediates/enums/bitmap_format_java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/out/target/product/rk3288_box/obj/GYP/shared_intermediates/enums/window_open_disposition_java" isTestSource="false" />
@@ -1700,7 +2094,6 @@
       <sourceFolder url="file://$MODULE_DIR$/packages/apps/ContactsCommon/tests" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/packages/apps/ContactsCommon/tests/src" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/packages/apps/DeskClock/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/packages/apps/DeskClock/tests/src" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/packages/apps/Dialer/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/packages/apps/Dialer/tests/src" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/packages/apps/Email/emailcommon/src" isTestSource="false" />
@@ -1904,6 +2297,6 @@
       <excludeFolder url="file://$MODULE_DIR$/prebuilt" />
     </content>
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="jdk" jdkName="Android API 22 Platform" jdkType="Android SDK" />
+    <orderEntry type="inheritedJdk" />
   </component>
 </module>

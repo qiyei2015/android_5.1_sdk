@@ -36,6 +36,7 @@
 #include <hardware/lights.h>
 #include "lights.h"
 
+#define LOG_NDEBUG 0
 #define LOG_TAG "lights.firefly-rk3288"
 
 /* Synchronization primities */
@@ -108,34 +109,12 @@ static int rgb_to_brightness (struct light_state_t const* state) {
 /* The actual lights controlling section */
 static int set_light_backlight (struct light_device_t *dev, struct light_state_t const *state) {
 	int brightness = rgb_to_brightness(state);
-	int als_mode;
-	switch (state->brightnessMode) {
-		case BRIGHTNESS_MODE_SENSOR:
-			als_mode = AUTOMATIC;
-			break;
-		case BRIGHTNESS_MODE_USER:
-			als_mode = BRIGHTNESS_MODE_USER;
-			break;
-		default:
-			als_mode = MANUAL_SENSOR;
-			break;
-	}
+
 	ALOGV("%s brightness=%d color=0x%08x", __func__,brightness,state->color);
 	pthread_mutex_lock(&g_lock);
 	g_backlight = brightness;
-	write_int (ALS_FILE, als_mode);
+	//write_int (ALS_FILE, als_mode);
 	write_int (LCD_BACKLIGHT_FILE, brightness);
-	pthread_mutex_unlock(&g_lock);
-	return 0;
-}
-
-static int set_light_buttons (struct light_device_t *dev, struct light_state_t const* state) {
-	size_t i;
-	int on = is_lit(state);
-	pthread_mutex_lock(&g_lock);
-	for (i = 0; i < sizeof(BUTTON_BACKLIGHT_FILE)/sizeof(BUTTON_BACKLIGHT_FILE[0]); i++) {
-		write_int (BUTTON_BACKLIGHT_FILE[i],on?255:0);
-	}
 	pthread_mutex_unlock(&g_lock);
 	return 0;
 }
@@ -149,21 +128,21 @@ static void set_shared_light_locked (struct light_device_t *dev, struct light_st
     delayOn = state->flashOnMS;
 	delayOff = state->flashOffMS;
 	if (state->flashMode != LIGHT_FLASH_NONE) {
-		write_string (RED_LED_FILE_TRIGGER, "timer");
+		//write_string (RED_LED_FILE_TRIGGER, "timer");
 		write_string (GREEN_LED_FILE_TRIGGER, "timer");
 		write_string (BLUE_LED_FILE_TRIGGER, "timer");
-		write_int (RED_LED_FILE_DELAYON, delayOn);
+		//write_int (RED_LED_FILE_DELAYON, delayOn);
 		write_int (GREEN_LED_FILE_DELAYON, delayOn);
 		write_int (BLUE_LED_FILE_DELAYON, delayOn);
-		write_int (RED_LED_FILE_DELAYOFF, delayOff);
+		//write_int (RED_LED_FILE_DELAYOFF, delayOff);
 		write_int (GREEN_LED_FILE_DELAYOFF, delayOff);
 		write_int (BLUE_LED_FILE_DELAYOFF, delayOff);
 	} else {
-		write_string (RED_LED_FILE_TRIGGER, "none");
+		//write_string (RED_LED_FILE_TRIGGER, "none");
 		write_string (GREEN_LED_FILE_TRIGGER, "none");
 		write_string (BLUE_LED_FILE_TRIGGER, "none");
 	}
-	write_int (RED_LED_FILE, r);
+	//write_int (RED_LED_FILE, r);
 	write_int (GREEN_LED_FILE, g);
 	write_int (BLUE_LED_FILE, b);
 }
@@ -210,9 +189,6 @@ static int open_lights (const struct hw_module_t* module, char const* name,
 					 struct light_state_t const *state);
 	if (0 == strcmp(LIGHT_ID_BACKLIGHT, name)) {
 		set_light = set_light_backlight;
-	}
-	else if (0 == strcmp(LIGHT_ID_BUTTONS, name)) {
-		set_light = set_light_buttons;
 	}
 	else if (0 == strcmp(LIGHT_ID_BATTERY, name)) {
 		set_light = set_light_battery;

@@ -79,6 +79,9 @@
     <option name="OPEN_IN_BROWSER" value="false" />
     <option name="OUTPUT_DIRECTORY" />
   </component>
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file url="file://$PROJECT_DIR$" />
+  </component>
   <component name="IdProvider" IDEtalkID="C8FEF8FDDA8778BFC0BDE2CF5A21CB2C" />
   <component name="JavacSettings">
     <option name="DEBUGGING_INFO" value="true" />
@@ -310,8 +313,8 @@
       <module fileurl="file://$PROJECT_DIR$/android.iml" filepath="$PROJECT_DIR$/android.iml" />
     </modules>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" default="false" assert-keyword="true" jdk-15="true" project-jdk-name="1.7" project-jdk-type="JavaSDK">
-    <output url="file:///tmp/intellij/rk3288/android/android5.1_sdk/classes" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" assert-keyword="true" jdk-15="true" project-jdk-name="Android API 22 Platform" project-jdk-type="Android SDK">
+    <output url="file:///tmp/intellij/work/android_5.1_sdk/classes" />
   </component>
   <component name="RmicSettings">
     <option name="IS_EANABLED" value="false" />
